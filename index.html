@@ -33,15 +33,64 @@
 		</a>
 	</div>
 
-<div class="textBox">
-	<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
+<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img class="swiper-img-content" 
+					src="homepictures/home_picture_1.png">
+			</div>
+			<div class="swiper-slide">
+				<img class="swiper-img-content" 
+					src="homepictures/home_picture_2.png">
+				</div>
+			<div class="swiper-slide">
+				<img class="swiper-img-content" 
+					src="homepictures/home_picture_3.png">
+			</div>
+			<div class="swiper-slide">
+				<img class="swiper-img-content" 
+					src="homepictures/home_picture_4.png">
+			</div>
+			<div class="swiper-slide">
+			<img class="swiper-img-content" 
+					src="homepictures/home_picture_5.png">
+			</div>
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
 	</div>
-
-</div>
-
+	<div class="textBox">
+		<p>
+			Marine conservation through fisherfolk empowerment in the Verde Island Passage: the Epicenter of Marine Biodiversity in the World Batang VIP means "Child of the Verde Island Passage".This is a series of projects at aim to empower fishing communities in the VIP so that one day they may be self-sustaining, would take pride as residents of the VIP, and would be good caretakers of the marine biodiversity in the area.
+		</p>
+	</div>
+	
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js">	
+	</script>
+	
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+	      spaceBetween: 30,
+	      centeredSlides: true,
+	      autoplay: {
+	        delay: 3000,
+	        disableOnInteraction: false,
+	      },
+	      pagination: {
+	        el: '.swiper-pagination',
+	        clickable: true,
+	      },
+	      navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	      },
+	    });
+	  </script>
 </body>
-
 </html>
+
