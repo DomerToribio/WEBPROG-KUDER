@@ -26,6 +26,12 @@
 		left: 10px;
 		position:absolute;
 	}
+	.logo:hover {
+		width: 200px;
+		margin-top: 0px;
+		left: 10px;
+		position:absolute;
+	}
 
 	.home-link,
 	.about-link,
@@ -40,12 +46,12 @@
 		background-size: cover;
 	}
 
-	.home-link { background-image: url("home_button.png"); }
+	/*.home-link { background-image: url("home_button.png"); }*/
 	.about-link { background-image: url("about_button.png"); }
 	.project-link { background-image: url("project_button.png"); }
 	.product-link { background-image: url("product_button.png"); }
 
-	.home-link:hover { background-image: url("home_button_hover.png"); }
+	/*.home-link:hover { background-image: url("home_button_hover.png"); }*/
 	.about-link:hover { background-image: url("about_button_hover.png"); }
 	.project-link:hover { background-image: url("project_button_hover.png"); }
 	.product-link:hover { background-image: url("product_button_hover.png"); }
