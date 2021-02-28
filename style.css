@@ -157,3 +157,26 @@
 		margin-right: auto;
 		margin-top: 100px;
 	}
+	.productBox,
+	.productBox2 {
+		width: 646px;
+		height: 366px;
+		border: 2px solid #000000;
+		margin-right: 100px;
+		margin-top: 50px;
+		float: right;
+	}
+	.inquireTextBox {
+		width: 450px;
+		height: 70px;
+		border: 2px solid #000000;
+		background-color: rgba(254, 246, 251, 0.8);
+		border-color: #ECAD04;
+		border-radius: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 500px;
+		font-size: 18px;
+		text-align: center;
+		font-family: roboto;
+	}
